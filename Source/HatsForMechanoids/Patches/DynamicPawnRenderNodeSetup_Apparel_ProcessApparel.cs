@@ -15,13 +15,13 @@ namespace HatsForMechanoids.Patches
                     .Inner("<ProcessApparel>d__5")
                     .GetMethods(BindingFlags.Public | BindingFlags.Instance | BindingFlags.NonPublic)
                     .First(m => m.Name == "MoveNext"),
-                transpiler: new HarmonyMethod(typeof(DynamicPawnRenderNodeSetup_Apparel_HumanlikeOnly).GetMethod(
+                transpiler: new HarmonyMethod(typeof(DynamicPawnRenderNodeSetup_Apparel_ProcessApparel).GetMethod(
                     nameof(Transpiler),
                     BindingFlags.Static | BindingFlags.NonPublic))
             );
         }
 
-        public static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions)
+        static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions)
         {
             var found = false;
             var pawnTypeField = typeof(PawnRenderNodeProperties).GetField(nameof(PawnRenderNodeProperties.pawnType));
@@ -35,6 +35,7 @@ namespace HatsForMechanoids.Patches
                     && (ConstructorInfo)instruction.operand == typeof(PawnRenderNodeProperties).GetConstructors()[0])
                 {
                     found = true;
+                    yield return new CodeInstruction(OpCodes.Dup);
                     yield return new CodeInstruction(OpCodes.Ldloc_0);
                     yield return new CodeInstruction(OpCodes.Stfld, pawnTypeField);
                 }
