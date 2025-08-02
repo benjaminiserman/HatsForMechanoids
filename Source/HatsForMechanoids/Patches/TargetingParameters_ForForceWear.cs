@@ -12,7 +12,6 @@ namespace HatsForMechanoids.Patches
     {
         static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions)
         {
-            Log.Message("Transpiler start");
             var canTargetMechs = typeof(TargetingParameters).GetField(nameof(TargetingParameters.canTargetMechs));
             var found = false;
 
@@ -23,7 +22,6 @@ namespace HatsForMechanoids.Patches
                     yield return new CodeInstruction(OpCodes.Pop);
                     yield return new CodeInstruction(OpCodes.Ldc_I4_1);
                     found = true;
-                    Log.Message("found");
                 }
 
                 yield return instruction;

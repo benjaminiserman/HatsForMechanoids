@@ -1,18 +1,41 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Patch>
 
   <Operation Class="PatchOperationAdd">
-    <xpath>/Defs/BodyDef[defName="Mech_Light"]/corePart/parts/li[def="MechanicalNeck"]/parts/li[def="MechanicalHead"]/groups</xpath>
-	<value>
-	  <li>UpperHead</li>
-	</value>
+    <xpath>
+      /Defs/BodyDef[defName="Mech_Light" or defName="Mech_Agrihand" or defName="Lancer" or
+      defName="Scyther"]/corePart/parts/li[def="MechanicalNeck"]/parts/li[def="MechanicalHead"]/groups</xpath>
+    <value>
+      <li>UpperHead</li>
+      <li>FullHead</li>
+    </value>
   </Operation>
 
   <Operation Class="PatchOperationReplace">
-    <xpath>/Defs/PawnKindDef[Name="BaseMechanoidKind"]/canStrip</xpath>
-	<value>
-	  <canStrip>true</canStrip>
-	</value>
+    <xpath>
+      /Defs/BodyDef[defName="Mech_Light" or defName="Mech_Agrihand" or defName="Lancer" or
+      defName="Scyther"]/corePart/parts/li[def="MechanicalNeck"]/parts/li[def="MechanicalHead"]/def</xpath>
+    <value>
+      <def>Head</def>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/PawnKindDef[@Name="BaseMechanoidKind"]/canStrip</xpath>
+    <value>
+      <canStrip>true</canStrip>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/PawnRenderTreeDef[defName="Misc"]/root/children</xpath>
+    <value>
+      <li Class="PawnRenderNodeProperties_Parent">
+            <debugLabel>Apparel root</debugLabel>
+            <tagDef>ApparelHead</tagDef>
+            <baseLayer>15</baseLayer>
+          </li>
+    </value>
   </Operation>
 
 </Patch>

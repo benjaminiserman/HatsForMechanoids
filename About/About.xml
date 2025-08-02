@@ -4,5 +4,20 @@
 	<author>winggar</author>
 	<supportedVersions><li>1.6</li></supportedVersions>
 	<description>Wowwee!!</description>
+	<modDependenciesByVersion>
+		<v1.6>
+			<li>
+				<packageId>brrainz.harmony</packageId>
+				<displayName>Harmony</displayName>
+				<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+				<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+			</li>
+		</v1.6>
+	</modDependenciesByVersion>
+	<loadAfterByVersion>
+		<v1.6>
+			<li>brrainz.harmony</li>
+		</v1.6>
+	</loadAfterByVersion>
 	<packageId>winggar.hatsformechanoids</packageId>
 </ModMetaData>

@@ -49,6 +49,9 @@
     </ItemGroup>
     <ItemGroup>
         <Compile Include="HatsForMechanoidsMod.cs" />
+        <Compile Include="Patches\DynamicPawnRenderNodeSetup_Apparel_HumanlikeOnly.cs" />
+        <Compile Include="Patches\DynamicPawnRenderNodeSetup_Apparel_ProcessApparel.cs" />
+        <Compile Include="Patches\StrippableUtility_CanBeStrippedByColony.cs" />
         <Compile Include="Patches\TargetingParameters_ForForceWear.cs" />
         <Compile Include="Patches\TargetingParameters_ForForceWear_Validator.cs" />
         <Compile Include="Properties\AssemblyInfo.cs"/>

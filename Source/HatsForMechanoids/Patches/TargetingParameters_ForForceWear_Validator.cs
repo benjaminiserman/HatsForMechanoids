@@ -25,6 +25,7 @@ namespace HatsForMechanoids.Patches
         {
             if (targ.Thing is Pawn pawn && pawn.IsColonyMech)
             {
+                pawn.story = pawn.story ?? new Pawn_StoryTracker(pawn);
                 __result = true;
                 return false;
             }
