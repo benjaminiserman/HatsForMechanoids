@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <HatsForMechanoids.HatWearerDef>
+        <defName>Mech_Cyclops</defName>
+        <zOffset>0.75</zOffset>
+    </HatsForMechanoids.HatWearerDef>
+
+</Defs>

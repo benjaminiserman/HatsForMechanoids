@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Odyssey</li>
+        </mods>
+        <match Class="PatchOperationAdd">
+            <xpath>
+                /Defs/BodyDef[defName="Mech_Cyclops"]/corePart/parts/li[def="MechanicalNeck"]/parts/li[def="MechanicalHead"]/groups</xpath>
+            <value>
+                <li>UpperHead</li>
+                <li>FullHead</li>
+            </value>
+        </match>
+    </Operation>
+
+</Patch>

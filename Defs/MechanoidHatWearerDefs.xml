@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <HatsForMechanoids.HatWearerDef>
+        <defName>Mech_Scyther</defName>
+        <zOffset>0.5</zOffset>
+    </HatsForMechanoids.HatWearerDef>
+    <HatsForMechanoids.HatWearerDef>
+        <defName>Mech_Lancer</defName>
+        <zOffset>0.5</zOffset>
+    </HatsForMechanoids.HatWearerDef>
+    <HatsForMechanoids.HatWearerDef>
+        <defName>Mech_CentipedeBlaster</defName>
+        <zOffset>0.5</zOffset>
+    </HatsForMechanoids.HatWearerDef>
+    <HatsForMechanoids.HatWearerDef>
+        <defName>Mech_CentipedeGunner</defName>
+        <zOffset>0.75</zOffset>
+    </HatsForMechanoids.HatWearerDef>
+    <HatsForMechanoids.HatWearerDef>
+        <defName>Mech_CentipedeBurner</defName>
+        <zOffset>1.0</zOffset>
+    </HatsForMechanoids.HatWearerDef>
+    <HatsForMechanoids.HatWearerDef>
+        <defName>Mech_Pikeman</defName>
+        <zOffset>0.5</zOffset>
+    </HatsForMechanoids.HatWearerDef>
+    <HatsForMechanoids.HatWearerDef>
+        <defName>Mech_Termite</defName>
+        <zOffset>0.33</zOffset>
+    </HatsForMechanoids.HatWearerDef>
+
+</Defs>

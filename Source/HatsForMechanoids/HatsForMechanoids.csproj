@@ -42,13 +42,21 @@
         <Reference Include="System"/>
         <Reference Include="System.Core"/>
         <Reference Include="System.Data"/>
+        <Reference Include="System.Numerics">
+          <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_MSIL\System.Numerics\v4.0_4.0.0.0__b77a5c561934e089\System.Numerics.dll</HintPath>
+        </Reference>
         <Reference Include="System.Xml"/>
         <Reference Include="UnityEngine">
           <HintPath>..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.dll</HintPath>
         </Reference>
+        <Reference Include="UnityEngine.CoreModule">
+          <HintPath>..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+        </Reference>
     </ItemGroup>
     <ItemGroup>
         <Compile Include="HatsForMechanoidsMod.cs" />
+        <Compile Include="HatWearerDef.cs" />
+        <Compile Include="Patches\PawnRenderNodeWorker_OffsetFor.cs" />
         <Compile Include="Patches\DynamicPawnRenderNodeSetup_Apparel_HumanlikeOnly.cs" />
         <Compile Include="Patches\DynamicPawnRenderNodeSetup_Apparel_ProcessApparel.cs" />
         <Compile Include="Patches\StrippableUtility_CanBeStrippedByColony.cs" />

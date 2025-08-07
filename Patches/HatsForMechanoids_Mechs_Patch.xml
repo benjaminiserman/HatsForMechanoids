@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>
+            /Defs/BodyDef[defName="Scyther"]/corePart/parts/li[def="MechanicalNeck"]/parts/li[def="MechanicalHead"]/groups</xpath>
+        <value>
+            <li>UpperHead</li>
+            <li>FullHead</li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>
+            /Defs/BodyDef[defName="Lancer"]/corePart/parts/li[def="MechanicalNeck"]/parts/li[def="MechanicalHead"]/groups</xpath>
+        <value>
+            <li>UpperHead</li>
+            <li>FullHead</li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>
+            /Defs/BodyDef[defName="MechanicalCentipede"]/corePart/parts/li[def="MechanicalNeck"]/parts/li[def="MechanicalHead"]/groups</xpath>
+        <value>
+            <li>UpperHead</li>
+            <li>FullHead</li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>
+            /Defs/BodyDef[defName="Pikeman"]/corePart/parts/li[def="MechanicalNeck"]/parts/li[def="MechanicalHead"]/groups</xpath>
+        <value>
+            <li>UpperHead</li>
+            <li>FullHead</li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>
+            /Defs/BodyDef[defName="MechanicalTermite"]/corePart/parts/li[def="MechanicalNeck"]/parts/li[def="MechanicalHead"]/groups</xpath>
+        <value>
+            <li>UpperHead</li>
+            <li>FullHead</li>
+        </value>
+    </Operation>
+
+
+</Patch>

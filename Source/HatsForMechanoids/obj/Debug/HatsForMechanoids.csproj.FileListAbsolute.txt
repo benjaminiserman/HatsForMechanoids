@@ -83,3 +83,4 @@ E:\Program Files (x86)\Steam\SteamApps\common\RimWorld\Mods\HatsForMechanoids\So
 E:\Program Files (x86)\Steam\SteamApps\common\RimWorld\Mods\HatsForMechanoids\Source\HatsForMechanoids\obj\Debug\HatsForM.C3A53B73.Up2Date
 E:\Program Files (x86)\Steam\SteamApps\common\RimWorld\Mods\HatsForMechanoids\Source\HatsForMechanoids\obj\Debug\HatsForMechanoids.dll
 E:\Program Files (x86)\Steam\SteamApps\common\RimWorld\Mods\HatsForMechanoids\Source\HatsForMechanoids\obj\Debug\HatsForMechanoids.pdb
+E:\Program Files (x86)\Steam\SteamApps\common\RimWorld\Mods\HatsForMechanoids\Source\HatsForMechanoids\bin\Debug\System.Numerics.dll

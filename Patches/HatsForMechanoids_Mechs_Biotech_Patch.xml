@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Biotech</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationAdd">
+                    <xpath>
+                        /Defs/BodyDef[defName="Mech_Militor"]/corePart/parts/li[def="MechanicalNeck"]/parts/li[def="MechanicalHead"]/groups
+                    </xpath>
+                    <value>
+                        <li>UpperHead</li>
+                        <li>FullHead</li>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>
+                        /Defs/BodyDef[defName="Mech_Lifter"]/corePart/parts/li[def="MechanicalNeck"]/parts/li[def="MechanicalHead"]/groups
+                    </xpath>
+                    <value>
+                        <li>UpperHead</li>
+                        <li>FullHead</li>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>
+                        /Defs/BodyDef[defName="Mech_Constructoid"]/corePart/parts/li[def="MechanicalNeck"]/parts/li[def="MechanicalHead"]/groups
+                    </xpath>
+                    <value>
+                        <li>UpperHead</li>
+                        <li>FullHead</li>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>
+                        /Defs/BodyDef[defName="Mech_Fabricor"]/corePart/parts/li[def="MechanicalNeck"]/parts/li[def="MechanicalHead"]/groups
+                    </xpath>
+                    <value>
+                        <li>UpperHead</li>
+                        <li>FullHead</li>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>
+                        /Defs/BodyDef[defName="Mech_Agrihand"]/corePart/parts/li[def="MechanicalNeck"]/parts/li[def="MechanicalHead"]/groups
+                    </xpath>
+                    <value>
+                        <li>UpperHead</li>
+                        <li>FullHead</li>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>
+                        /Defs/BodyDef[defName="Mech_Cleansweeper"]/corePart/parts/li[def="MechanicalNeck"]/parts/li[def="MechanicalHead"]/groups
+                    </xpath>
+                    <value>
+                        <li>UpperHead</li>
+                        <li>FullHead</li>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>
+                        /Defs/BodyDef[defName="Mech_WarUrchin"]/corePart/parts/li[def="MechanicalNeck"]/parts/li[def="MechanicalHead"]/groups
+                    </xpath>
+                    <value>
+                        <li>UpperHead</li>
+                        <li>FullHead</li>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>
+                        /Defs/BodyDef[defName="Mech_Paramedic"]/corePart/parts/li[def="MechanicalNeck"]/parts/li[def="MechanicalHead"]/groups
+                    </xpath>
+                    <value>
+                        <li>UpperHead</li>
+                        <li>FullHead</li>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>
+                        /Defs/BodyDef[defName="Mech_Agrihand"]/corePart/parts/li[def="MechanicalNeck"]/parts/li[def="MechanicalHead"]/groups
+                    </xpath>
+                    <value>
+                        <li>UpperHead</li>
+                        <li>FullHead</li>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>
+                        /Defs/BodyDef[defName="Mech_Tunneler"]/corePart/parts/li[def="MechanicalNeck"]/parts/li[def="MechanicalHead"]/groups
+                    </xpath>
+                    <value>
+                        <li>UpperHead</li>
+                        <li>FullHead</li>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>
+                        /Defs/BodyDef[defName="Mech_Legionary"]/corePart/parts/li[def="MechanicalNeck"]/parts/li[def="MechanicalHead"]/groups
+                    </xpath>
+                    <value>
+                        <li>UpperHead</li>
+                        <li>FullHead</li>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>
+                        /Defs/BodyDef[defName="Mech_Tesseron"]/corePart/parts/li[def="MechanicalNeck"]/parts/li[def="MechanicalHead"]/groups
+                    </xpath>
+                    <value>
+                        <li>UpperHead</li>
+                        <li>FullHead</li>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>
+                        /Defs/BodyDef[defName="Mech_Scorcher"]/corePart/parts/li[def="MechanicalNeck"]/parts/li[def="MechanicalHead"]/groups
+                    </xpath>
+                    <value>
+                        <li>UpperHead</li>
+                        <li>FullHead</li>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>
+                        /Defs/BodyDef[defName="Mech_Apocriton"]/corePart/parts/li[def="MechanicalNeck"]/parts/li[def="MechanicalHead"]/groups
+                    </xpath>
+                    <value>
+                        <li>UpperHead</li>
+                        <li>FullHead</li>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>
+                        /Defs/BodyDef[defName="Mech_Centurion"]/corePart/parts/li[def="MechanicalNeck"]/parts/li[def="MechanicalHead"]/groups
+                    </xpath>
+                    <value>
+                        <li>UpperHead</li>
+                        <li>FullHead</li>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>
+                        /Defs/BodyDef[defName="Mech_Warqueen"]/corePart/parts/li[def="MechanicalNeck"]/parts/li[def="MechanicalHead"]/groups
+                    </xpath>
+                    <value>
+                        <li>UpperHead</li>
+                        <li>FullHead</li>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>
+                        /Defs/BodyDef[defName="Mech_Diabolus"]/corePart/parts/li[def="MechanicalNeck"]/parts/li[def="MechanicalHead"]/groups
+                    </xpath>
+                    <value>
+                        <li>UpperHead</li>
+                        <li>FullHead</li>
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+
+</Patch>

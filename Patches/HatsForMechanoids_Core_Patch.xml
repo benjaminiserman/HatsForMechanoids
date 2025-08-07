@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/PawnKindDef[@Name="BaseMechanoidKind"]/canStrip</xpath>
+        <value>
+            <canStrip>true</canStrip>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/PawnRenderTreeDef[defName="Misc"]/root/children</xpath>
+        <value>
+            <li Class="PawnRenderNodeProperties_Parent">
+                <debugLabel>Apparel root</debugLabel>
+                <tagDef>ApparelHead</tagDef>
+                <baseLayer>70</baseLayer>
+            </li>
+        </value>
+    </Operation>
+
+</Patch>
