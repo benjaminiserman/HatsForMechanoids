@@ -15,19 +15,19 @@
     </HatsForMechanoids.HatWearerDef>
     <HatsForMechanoids.HatWearerDef>
         <defName>Mech_CentipedeGunner</defName>
-        <zOffset>0.75</zOffset>
-    </HatsForMechanoids.HatWearerDef>
-    <HatsForMechanoids.HatWearerDef>
-        <defName>Mech_CentipedeBurner</defName>
-        <zOffset>1.0</zOffset>
-    </HatsForMechanoids.HatWearerDef>
-    <HatsForMechanoids.HatWearerDef>
-        <defName>Mech_Pikeman</defName>
         <zOffset>0.5</zOffset>
     </HatsForMechanoids.HatWearerDef>
     <HatsForMechanoids.HatWearerDef>
+        <defName>Mech_CentipedeBurner</defName>
+        <zOffset>0.5</zOffset>
+    </HatsForMechanoids.HatWearerDef>
+    <HatsForMechanoids.HatWearerDef>
+        <defName>Mech_Pikeman</defName>
+        <zOffset>0.15</zOffset>
+    </HatsForMechanoids.HatWearerDef>
+    <HatsForMechanoids.HatWearerDef>
         <defName>Mech_Termite</defName>
-        <zOffset>0.33</zOffset>
+        <zOffset>-0.5</zOffset>
     </HatsForMechanoids.HatWearerDef>
 
 </Defs>

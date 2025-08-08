@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>
+			/Defs/BodyDef[defName="Mech_Light"]/corePart/parts/li[def="MechanicalNeck"]/parts/li[def="MechanicalHead"]/groups
+		</xpath>
+		<value>
+			<li>UpperHead</li>
+			<li>FullHead</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>
+			/Defs/BodyDef[defName="Mech_Agrihand"]/corePart/parts/li[def="MechanicalNeck"]/parts/li[def="MechanicalHead"]/groups
+		</xpath>
+		<value>
+			<li>UpperHead</li>
+			<li>FullHead</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>
+			/Defs/BodyDef[defName="Mech_Tunneler"]/corePart/parts/li[def="MechanicalNeck"]/parts/li[def="MechanicalHead"]/groups
+		</xpath>
+		<value>
+			<li>UpperHead</li>
+			<li>FullHead</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>
+			/Defs/BodyDef[defName="Scorcher"]/corePart/parts/li[def="MechanicalNeck"]/parts/li[def="MechanicalHead"]/groups
+		</xpath>
+		<value>
+			<li>UpperHead</li>
+			<li>FullHead</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>
+			/Defs/BodyDef[defName="Apocriton"]/corePart/parts/li[def="MechanicalNeck"]/parts/li[def="MechanicalHead"]/groups
+		</xpath>
+		<value>
+			<li>UpperHead</li>
+			<li>FullHead</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>
+			/Defs/BodyDef[defName="Mech_Centurion"]/corePart/parts/li[def="MechanicalNeck"]/parts/li[def="MechanicalHead"]/groups
+		</xpath>
+		<value>
+			<li>UpperHead</li>
+			<li>FullHead</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>
+			/Defs/BodyDef[defName="Mech_Warqueen"]/corePart/parts/li[def="MechanicalHead"]/groups
+		</xpath>
+		<value>
+			<li>UpperHead</li>
+			<li>FullHead</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>
+			/Defs/BodyDef[defName="Mech_Diabolus"]/corePart/parts/li[def="MechanicalHead"]/groups
+		</xpath>
+		<value>
+			<li>UpperHead</li>
+			<li>FullHead</li>
+		</value>
+	</Operation>
+
+</Patch>

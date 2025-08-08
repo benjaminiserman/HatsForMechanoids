@@ -19,7 +19,7 @@
     </Operation>
     <Operation Class="PatchOperationAdd">
         <xpath>
-            /Defs/BodyDef[defName="MechanicalCentipede"]/corePart/parts/li[def="MechanicalNeck"]/parts/li[def="MechanicalHead"]/groups</xpath>
+            /Defs/BodyDef[defName="MechanicalCentipede"]/corePart/parts/li[def="MechanicalHead"]/groups</xpath>
         <value>
             <li>UpperHead</li>
             <li>FullHead</li>
@@ -35,7 +35,7 @@
     </Operation>
     <Operation Class="PatchOperationAdd">
         <xpath>
-            /Defs/BodyDef[defName="MechanicalTermite"]/corePart/parts/li[def="MechanicalNeck"]/parts/li[def="MechanicalHead"]/groups</xpath>
+            /Defs/BodyDef[defName="MechanicalTermite"]/corePart/parts/li[def="MechanicalHead"]/groups</xpath>
         <value>
             <li>UpperHead</li>
             <li>FullHead</li>

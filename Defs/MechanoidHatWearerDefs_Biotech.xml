@@ -3,35 +3,35 @@
 
     <HatsForMechanoids.HatWearerDef>
         <defName>Mech_Militor</defName>
-        <zOffset>0.33</zOffset>
+        <zOffset>0.2</zOffset>
     </HatsForMechanoids.HatWearerDef>
     <HatsForMechanoids.HatWearerDef>
         <defName>Mech_Lifter</defName>
-        <zOffset>0.25</zOffset>
+        <zOffset>0.15</zOffset>
     </HatsForMechanoids.HatWearerDef>
     <HatsForMechanoids.HatWearerDef>
         <defName>Mech_Constructoid</defName>
-        <zOffset>0.25</zOffset>
+        <zOffset>0.2</zOffset>
     </HatsForMechanoids.HatWearerDef>
     <HatsForMechanoids.HatWearerDef>
         <defName>Mech_Fabricor</defName>
-        <zOffset>0.33</zOffset>
+        <zOffset>0.2</zOffset>
     </HatsForMechanoids.HatWearerDef>
     <HatsForMechanoids.HatWearerDef>
         <defName>Mech_Agrihand</defName>
-        <zOffset>0.25</zOffset>
+        <zOffset>0.0</zOffset>
     </HatsForMechanoids.HatWearerDef>
     <HatsForMechanoids.HatWearerDef>
         <defName>Mech_Cleansweeper</defName>
-        <zOffset>0.25</zOffset>
+        <zOffset>0.05</zOffset>
     </HatsForMechanoids.HatWearerDef>
     <HatsForMechanoids.HatWearerDef>
         <defName>Mech_WarUrchin</defName>
-        <zOffset>0.25</zOffset>
+        <zOffset>0.05</zOffset>
     </HatsForMechanoids.HatWearerDef>
     <HatsForMechanoids.HatWearerDef>
         <defName>Mech_Paramedic</defName>
-        <zOffset>0.33</zOffset>
+        <zOffset>0.2</zOffset>
     </HatsForMechanoids.HatWearerDef>
     <HatsForMechanoids.HatWearerDef>
         <defName>Mech_Tunneler</defName>
@@ -43,7 +43,7 @@
     </HatsForMechanoids.HatWearerDef>
     <HatsForMechanoids.HatWearerDef>
         <defName>Mech_Tesseron</defName>
-        <zOffset>0.5</zOffset>
+        <zOffset>0.4</zOffset>
     </HatsForMechanoids.HatWearerDef>
     <HatsForMechanoids.HatWearerDef>
         <defName>Mech_Apocriton</defName>
@@ -51,7 +51,7 @@
     </HatsForMechanoids.HatWearerDef>
     <HatsForMechanoids.HatWearerDef>
         <defName>Mech_Centurion</defName>
-        <zOffset>0.75</zOffset>
+        <zOffset>0.5</zOffset>
     </HatsForMechanoids.HatWearerDef>
     <HatsForMechanoids.HatWearerDef>
         <defName>Mech_Warqueen</defName>
