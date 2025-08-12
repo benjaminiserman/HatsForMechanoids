@@ -3,9 +3,20 @@
 	<name>Wing's Hats For Mechanoids</name>
 	<author>winggar</author>
 	<supportedVersions><li>1.6</li></supportedVersions>
-	<description>Wowwee!!</description>
+	<description>Have you ever thought your mechanoids looked a little plain? Is one stripe of color just not enough? Maybe you wish you could give them just a little more personality. If that's your problem, then this mod is your solution.
+	
+Wing's Hats For Mechanoids allows Mechanoids to wear hats. To put a hat on a mechanoid, select a pawn, right-click a hat, select "Force target to wear...", and select a colony mechanoid. And voilà! Your mechanoid is wearing a hat.
+	
+This mod allows all base-game and DLC mechanoids to wear hats. Want to add compatibility for another mod? Feel free to PR me—it should just be one patch to add the apparel node and an xml file to list the texture offsets. I'm working on other projects, so don't plan on me writing a compat patch for you!
+	
+It was surprisingly awful to program this and I'm relying on a rather ramshackle stack of C# patches, so my apologies if it breaks anything. Feel free to post bug reports in the comments.</description>
 	<modDependenciesByVersion>
 		<v1.6>
+			<li>
+			  <packageId>Ludeon.RimWorld.Biotech</packageId>
+			  <displayName>Rimworld - Biotech</displayName>
+			  <steamWorkshopUrl>https://store.steampowered.com/app/1826140/RimWorld__Biotech/</steamWorkshopUrl>
+			</li>
 			<li>
 				<packageId>brrainz.harmony</packageId>
 				<displayName>Harmony</displayName>
@@ -16,6 +27,7 @@
 	</modDependenciesByVersion>
 	<loadAfterByVersion>
 		<v1.6>
+			<li>Ludeon.RimWorld.Biotech</li>
 			<li>brrainz.harmony</li>
 		</v1.6>
 	</loadAfterByVersion>

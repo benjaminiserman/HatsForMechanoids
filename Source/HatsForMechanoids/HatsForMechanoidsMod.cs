@@ -29,6 +29,7 @@ namespace HatsForMechanoids
             harmony.PatchAll();
             TargetingParameters_ForForceWear_Validator.Apply(harmony);
             DynamicPawnRenderNodeSetup_Apparel_ProcessApparel.Apply(harmony);
+            PawnRenderNode_Apparel_GraphicsFor.Apply(harmony);
         }
     }
 }

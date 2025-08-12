@@ -25,8 +25,8 @@ namespace HatsForMechanoids.Patches
         {
             if (targ.Thing is Pawn pawn && pawn.IsColonyMech)
             {
-                pawn.story = pawn.story ?? new Pawn_StoryTracker(pawn);
-                pawn.story.bodyType = pawn.story.bodyType ?? BodyTypeDefOf.Female;
+                // pawn.story = pawn.story ?? new Pawn_StoryTracker(pawn);
+                // pawn.story.bodyType = pawn.story.bodyType ?? BodyTypeDefOf.Female;
                 __result = true;
                 return false;
             }

@@ -8,15 +8,15 @@ using Verse;
 
 namespace HatsForMechanoids.Patches
 {
-    public class DynamicPawnRenderNodeSetup_Apparel_ProcessApparel
+    public class PawnRenderNode_Apparel_GraphicsFor
     {
         public static void Apply(Harmony harmony)
         {
-            harmony.Patch(typeof(DynamicPawnRenderNodeSetup_Apparel)
-                    .Inner("<ProcessApparel>d__5")
+            harmony.Patch(typeof(PawnRenderNode_Apparel)
+                    .Inner("<GraphicsFor>d__5")
                     .GetMethods(BindingFlags.Public | BindingFlags.Instance | BindingFlags.NonPublic)
                     .First(m => m.Name == "MoveNext"),
-                transpiler: new HarmonyMethod(typeof(DynamicPawnRenderNodeSetup_Apparel_ProcessApparel).GetMethod(
+                transpiler: new HarmonyMethod(typeof(PawnRenderNode_Apparel_GraphicsFor).GetMethod(
                     nameof(Transpiler),
                     BindingFlags.Static | BindingFlags.NonPublic))
             );
@@ -25,9 +25,7 @@ namespace HatsForMechanoids.Patches
         static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions,
             ILGenerator ilGenerator)
         {
-            var foundBodyType = false;
-            var foundPawnType = false;
-            var pawnTypeField = typeof(PawnRenderNodeProperties).GetField(nameof(PawnRenderNodeProperties.pawnType));
+            var found = false;
             var bodyTypeField = typeof(Pawn_StoryTracker).GetField(nameof(Pawn_StoryTracker.bodyType));
 
             var label = ilGenerator.DefineLabel();
@@ -37,7 +35,7 @@ namespace HatsForMechanoids.Patches
             {
                 if (instruction.opcode == OpCodes.Ldfld && (FieldInfo)instruction.operand == bodyTypeField)
                 {
-                    foundBodyType = true;
+                    found = true;
                     yield return new CodeInstruction(OpCodes.Dup);
                     yield return new CodeInstruction(OpCodes.Brtrue_S, label);
                     yield return new CodeInstruction(OpCodes.Pop);
@@ -51,29 +49,13 @@ namespace HatsForMechanoids.Patches
                 else
                 {
                     yield return instruction;
-
-                    if (!foundPawnType
-                        && instruction.opcode == OpCodes.Newobj
-                        && (ConstructorInfo)instruction.operand == typeof(PawnRenderNodeProperties).GetConstructors()[0])
-                    {
-                        foundPawnType = true;
-                        yield return new CodeInstruction(OpCodes.Dup);
-                        yield return new CodeInstruction(OpCodes.Ldloc_0);
-                        yield return new CodeInstruction(OpCodes.Stfld, pawnTypeField);
-                    }
                 }
             }
 
-            if (!foundBodyType)
+            if (!found)
             {
                 Log.Error(
-                    $"Failed to find FieldInfo {bodyTypeField} in patch {nameof(DynamicPawnRenderNodeSetup_Apparel_ProcessApparel)}");
-            }
-
-            if (!foundPawnType)
-            {
-                Log.Error(
-                    $"Failed to find FieldInfo {pawnTypeField} in patch {nameof(DynamicPawnRenderNodeSetup_Apparel_ProcessApparel)}");
+                    $"Failed to find FieldInfo {bodyTypeField} in patch {nameof(PawnRenderNode_Apparel_GraphicsFor)}");
             }
         }
     }

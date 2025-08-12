@@ -56,9 +56,12 @@
     <ItemGroup>
         <Compile Include="HatsForMechanoidsMod.cs" />
         <Compile Include="HatWearerDef.cs" />
+        <Compile Include="Patches\ApparelGraphicRecordGetter_TryGetGraphicApparel.cs" />
         <Compile Include="Patches\PawnRenderNodeWorker_OffsetFor.cs" />
         <Compile Include="Patches\DynamicPawnRenderNodeSetup_Apparel_HumanlikeOnly.cs" />
         <Compile Include="Patches\DynamicPawnRenderNodeSetup_Apparel_ProcessApparel.cs" />
+        <Compile Include="Patches\PawnRenderNode_Apparel_GraphicsFor.cs" />
+        <Compile Include="Patches\Pawn_EquipmentTracker_TryDropEquipment.cs" />
         <Compile Include="Patches\StrippableUtility_CanBeStrippedByColony.cs" />
         <Compile Include="Patches\TargetingParameters_ForForceWear.cs" />
         <Compile Include="Patches\TargetingParameters_ForForceWear_Validator.cs" />

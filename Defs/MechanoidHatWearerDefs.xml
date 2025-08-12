@@ -12,14 +12,47 @@
     <HatsForMechanoids.HatWearerDef>
         <defName>Mech_CentipedeBlaster</defName>
         <zOffset>0.5</zOffset>
+        <north>
+            <zOffset>0.6</zOffset>
+        </north>
+        <west>
+            <xOffset>-0.7</xOffset>
+            <zOffset>0.35</zOffset>
+        </west>
+        <east>
+            <xOffset>0.7</xOffset>
+            <zOffset>0.35</zOffset>
+        </east>
     </HatsForMechanoids.HatWearerDef>
     <HatsForMechanoids.HatWearerDef>
         <defName>Mech_CentipedeGunner</defName>
         <zOffset>0.5</zOffset>
+        <north>
+            <zOffset>0.6</zOffset>
+        </north>
+        <west>
+            <xOffset>-0.7</xOffset>
+            <zOffset>0.35</zOffset>
+        </west>
+        <east>
+            <xOffset>0.7</xOffset>
+            <zOffset>0.35</zOffset>
+        </east>
     </HatsForMechanoids.HatWearerDef>
     <HatsForMechanoids.HatWearerDef>
         <defName>Mech_CentipedeBurner</defName>
         <zOffset>0.5</zOffset>
+        <north>
+            <zOffset>0.6</zOffset>
+        </north>
+        <west>
+            <xOffset>-0.7</xOffset>
+            <zOffset>0.35</zOffset>
+        </west>
+        <east>
+            <xOffset>0.7</xOffset>
+            <zOffset>0.35</zOffset>
+        </east>
     </HatsForMechanoids.HatWearerDef>
     <HatsForMechanoids.HatWearerDef>
         <defName>Mech_Pikeman</defName>
@@ -27,7 +60,18 @@
     </HatsForMechanoids.HatWearerDef>
     <HatsForMechanoids.HatWearerDef>
         <defName>Mech_Termite</defName>
-        <zOffset>-0.5</zOffset>
+        <zOffset>-0.7</zOffset>
+        <north>
+            <zOffset>1.7</zOffset>
+        </north>
+        <west>
+            <xOffset>-0.9</xOffset>
+            <zOffset>0.7</zOffset>
+        </west>
+        <east>
+            <xOffset>0.9</xOffset>
+            <zOffset>0.7</zOffset>
+        </east>
     </HatsForMechanoids.HatWearerDef>
 
 </Defs>

@@ -7,7 +7,7 @@
     </HatsForMechanoids.HatWearerDef>
     <HatsForMechanoids.HatWearerDef>
         <defName>Mech_Lifter</defName>
-        <zOffset>0.15</zOffset>
+        <zOffset>0.2</zOffset>
     </HatsForMechanoids.HatWearerDef>
     <HatsForMechanoids.HatWearerDef>
         <defName>Mech_Constructoid</defName>
@@ -15,15 +15,24 @@
     </HatsForMechanoids.HatWearerDef>
     <HatsForMechanoids.HatWearerDef>
         <defName>Mech_Fabricor</defName>
-        <zOffset>0.2</zOffset>
+        <zOffset>0.15</zOffset>
     </HatsForMechanoids.HatWearerDef>
     <HatsForMechanoids.HatWearerDef>
         <defName>Mech_Agrihand</defName>
-        <zOffset>0.0</zOffset>
+        <zOffset>-0.1</zOffset>
+        <north>
+            <zOffset>0.1</zOffset>
+        </north>
+        <west>
+            <zOffset>0.2</zOffset>
+        </west>
+        <east>
+            <zOffset>0.2</zOffset>
+        </east>
     </HatsForMechanoids.HatWearerDef>
     <HatsForMechanoids.HatWearerDef>
         <defName>Mech_Cleansweeper</defName>
-        <zOffset>0.05</zOffset>
+        <zOffset>-0.05</zOffset>
     </HatsForMechanoids.HatWearerDef>
     <HatsForMechanoids.HatWearerDef>
         <defName>Mech_WarUrchin</defName>
@@ -32,6 +41,14 @@
     <HatsForMechanoids.HatWearerDef>
         <defName>Mech_Paramedic</defName>
         <zOffset>0.2</zOffset>
+        <west>
+            <xOffset>-0.15</xOffset>
+            <zOffset>0.1</zOffset>
+        </west>
+        <east>
+            <xOffset>0.15</xOffset>
+            <zOffset>0.1</zOffset>
+        </east>
     </HatsForMechanoids.HatWearerDef>
     <HatsForMechanoids.HatWearerDef>
         <defName>Mech_Tunneler</defName>
@@ -39,7 +56,7 @@
     </HatsForMechanoids.HatWearerDef>
     <HatsForMechanoids.HatWearerDef>
         <defName>Mech_Legionary</defName>
-        <zOffset>0.5</zOffset>
+        <zOffset>0.4</zOffset>
     </HatsForMechanoids.HatWearerDef>
     <HatsForMechanoids.HatWearerDef>
         <defName>Mech_Tesseron</defName>
@@ -47,15 +64,76 @@
     </HatsForMechanoids.HatWearerDef>
     <HatsForMechanoids.HatWearerDef>
         <defName>Mech_Apocriton</defName>
-        <zOffset>0.75</zOffset>
+        <zOffset>0.65</zOffset>
+        <west>
+            <xOffset>-0.3</xOffset>
+            <zOffset>-0.05</zOffset>
+        </west>
+        <east>
+            <xOffset>0.3</xOffset>
+            <zOffset>-0.05</zOffset>
+        </east>
+    </HatsForMechanoids.HatWearerDef>
+    <HatsForMechanoids.HatWearerDef>
+        <defName>Mech_Scorcher</defName>
+        <zOffset>0.0</zOffset>
+        <north>
+            <zOffset>0.5</zOffset>
+        </north>
+        <west>
+            <xOffset>-0.2</xOffset>
+            <zOffset>0.35</zOffset>
+        </west>
+        <east>
+            <xOffset>0.2</xOffset>
+            <zOffset>0.35</zOffset>
+        </east>
+    </HatsForMechanoids.HatWearerDef>
+    <HatsForMechanoids.HatWearerDef>
+        <defName>Mech_Diabolus</defName>
+        <zOffset>1.1</zOffset>
+        <north>
+            <xOffset>0.05</xOffset>
+            <zOffset>0.0</zOffset>
+        </north>
+        <west>
+            <xOffset>-0.2</xOffset>
+            <zOffset>-0.1</zOffset>
+        </west>
+        <east>
+            <xOffset>0.2</xOffset>
+            <zOffset>-0.1</zOffset>
+        </east>
     </HatsForMechanoids.HatWearerDef>
     <HatsForMechanoids.HatWearerDef>
         <defName>Mech_Centurion</defName>
         <zOffset>0.5</zOffset>
+        <north>
+            <zOffset>0.3</zOffset>
+        </north>
+        <west>
+            <xOffset>-0.2</xOffset>
+            <zOffset>0.3</zOffset>
+        </west>
+        <east>
+            <xOffset>0.2</xOffset>
+            <zOffset>0.3</zOffset>
+        </east>
     </HatsForMechanoids.HatWearerDef>
     <HatsForMechanoids.HatWearerDef>
         <defName>Mech_Warqueen</defName>
         <zOffset>0.75</zOffset>
+        <north>
+            <zOffset>0.25</zOffset>
+        </north>
+        <west>
+            <xOffset>-0.2</xOffset>
+            <zOffset>0.3</zOffset>
+        </west>
+        <east>
+            <xOffset>0.2</xOffset>
+            <zOffset>0.3</zOffset>
+        </east>
     </HatsForMechanoids.HatWearerDef>
 
 </Defs>
